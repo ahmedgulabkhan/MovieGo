@@ -1,0 +1,43 @@
+.sign-up-container {
+    margin: 0px 10px;
+    width: 50%;
+
+    h2{
+        font-size: 27px;
+    }
+
+    span{
+        font-size: 20px;
+    }
+
+    .form-container {
+        //margin: 20px;
+        .input {
+            //display: block;
+            height: 35px;
+            margin: 10px 0px;
+            font-size: 16px;
+            width: 100%;
+            color: white;
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid white;
+            outline: transparent;
+        }
+
+        .button {
+            margin: 10px 0px;
+            padding: 10px 15px;
+            font-size: 16px;
+            color: white;
+            background-color: rgb(0, 195, 255);
+            border: none;
+            border-radius: 5px;
+
+            &:hover{
+                background-color: rgb(0, 130, 170);
+                cursor: pointer;
+            }
+        }
+    }
+}

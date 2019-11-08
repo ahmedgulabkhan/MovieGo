@@ -1,0 +1,94 @@
+.header {
+    height: 70px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    background-color: rgb(75, 75, 75);
+    color: white;
+    box-shadow: 0px 2px 4px black;
+  
+    .container {
+        padding: 0px 50px;
+    }
+
+    .logo-container {
+        height: 100%;
+        width: 25%;
+        padding: 25px;
+        display: flex;
+        align-items: center;
+
+        .logo {
+            color: rgb(0, 195, 255);
+            font-size: 30px;
+            font-style: oblique;
+            font-weight: bolder;
+            text-shadow: -1px 1px 4px black;
+        }
+    }
+  
+    .options {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        .option {
+            padding: 10px 15px;
+            cursor: pointer;
+            color: white;
+            font-size: 20px;
+            &:hover{
+                background-color: rgb(0, 195, 255);
+                color: white;
+            }
+            &:focus{
+                background-color: rgb(0, 195, 255);
+                color: white;
+            }
+        }
+    }
+
+    .sign-in-container {
+        height: 100%;
+        width: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        .sign-in {
+            padding: 5px 20px;
+            cursor: pointer;
+            color: white;
+            background-color: rgb(0, 195, 255);
+            font-size: 20px;
+            //border: 1px solid rgb(0, 195, 255);
+            border-radius: 10px;
+            
+            &:hover{
+                color: white;
+                background-color: rgb(0, 130, 170);
+            }
+        }
+
+        .log-out {
+            padding: 5px 20px;
+            cursor: pointer;
+            color: white;
+            background-color: rgb(255, 60, 60);
+            font-size: 20px;
+            //border: 1px solid rgb(255, 0, 0);
+            border-radius: 10px;
+            
+            &:hover{
+                color: white;
+                background-color: red;
+            }
+        }
+    }
+}

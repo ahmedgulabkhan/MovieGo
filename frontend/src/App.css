@@ -1,0 +1,13 @@
+body {
+  font-family: 'Open Sans Condensed';
+  background-color: rgb(30, 30, 30);
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
