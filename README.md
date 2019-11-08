@@ -10,35 +10,36 @@ I used the MERN (MongoDB, ExpressJS, ReactJS and NodeJS) stack for this project.
 - [NodeJS](https://nodejs.org/en/)
 - [MongoDB](https://www.mongodb.com/download-center)
 
-The package.json files in the root, frontend and the backend folders contain all the required dependencies. First go ahead and make sure to download the latest stable version of [NodeJS](https://nodejs.org/en/) and also [MongoDB](https://www.mongodb.com/download-center). Clone the repository and run the command `npm install` while in the root, frontend and backend folders to install all the dependencies as mentioned below.
+The package.json files in the root, frontend and the backend folders contain all the required dependencies. First go ahead and make sure to download the latest stable version of [NodeJS](https://nodejs.org/en/) and also the latest version of [MongoDB](https://www.mongodb.com/download-center). Clone the repository and run the command `npm install` while in the root, frontend and backend folders to install all the dependencies. All the required steps to set up the project are mentioned below. Just follow through.
 
 ## Configuration Steps
-1. Cloning the repository.
+1. Cloning the repository:
 
 ```
 $ git clone https://github.com/samaronybarros/movies-app.git
 ```
 
-2. Installing the dependencies (using terminal).
+2. Installing the dependencies (using terminal):
 
 ```
 $ cd MovieGo
 $ npm install
+
 $ cd backend
 $ npm install
+
 $ cd..
+
 $ cd fronted
 $ npm install
 ```
-This install all the required dependencies like React, React-router-dom, Concurrently, Express, Mongoose, Passport, etc.
+This installs all the required dependencies like React, React-router-dom, Concurrently, Express, Mongoose, Passport, etc.
 
-3. Configuring MongoDB
+3. Configuring MongoDB:
 
-Open your terminal, and go to the directory where you have MongoDB installed and from thereon cd to the directory which has the 'mongod.exe'
-file inside it. After you reach that directory through terminal type `mongod` and the MongoDB server starts running locally on your machine
-on port 27017.
+Open your terminal, and go to the directory where you have MongoDB installed and from thereon cd to the directory which has the 'mongod.exe' file inside it. After you reach that directory through your terminal, type `mongod` and press enter, and the MongoDB server starts running locally on your machine on port 27017.
 
-4. Checking if everything works fine
+4. Checking if everything works fine:
 
 Now open another terminal and cd to the MovieGo directory. Run the following code:
 
