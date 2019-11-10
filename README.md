@@ -26,7 +26,7 @@ The package.json files in the root, frontend and the backend folders contain all
 1. Cloning the repository:
 
 ```
-$ git clone https://github.com/samaronybarros/movies-app.git
+$ git clone https://github.com/ahmedgulabkhan/MovieGo.git
 ```
 
 2. Installing the dependencies (using terminal):
